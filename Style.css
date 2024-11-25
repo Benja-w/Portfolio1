@@ -22,6 +22,18 @@ body {
     background-repeat: no-repeat;
 }
 
+@media (max-width: 767px) {
+    body {
+        background-color: #f0f0f0; /* Fondo diferente en móviles */
+        font-size: 16px; /* Tamaño de fuente más pequeño en móviles */
+    }
+    .cuadrado-izquierda, .cuadrado-derecha {
+        width: 100%; /* Hace que los cuadros ocupen todo el ancho */
+        height: 300px; /* Ajusta la altura */
+    }
+}
+
+
 body::before {
     content: ''; /* Necesario para crear el pseudo-elemento */
     position: absolute; /* Lo coloca encima del fondo */
