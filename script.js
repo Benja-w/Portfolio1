@@ -8,7 +8,7 @@ window.addEventListener('scroll', function() {
     var cuadradoDerecha = document.querySelector('.cuadrado-derecha');
 
     // Ajustar la posición de los cuadrados en función del scroll, con diferentes velocidades
-    cuadradoIzquierda.style.transform = 'translateY(' + (scrollPosition * -0.5) + 'px)';
+    cuadradoIzquierda.style.transform = 'translateY(' + (scrollPosition * -1) + 'px)';
     cuadradoDerecha.style.transform = 'translateY(' + (scrollPosition * -0.5) + 'px)';
 });
 
